@@ -5,7 +5,7 @@
 <head>
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="format-detection" content="telephone=no">
+
   <meta charset="UTF-8">
   <link href="https://fonts.googleapis.com/css2?family=Hind+Madurai&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Abel&family=Metal+Mania&display=swap" rel="stylesheet">
@@ -454,14 +454,14 @@ This painting is inspired by my personal experience of being ill with a high fev
     });
   </script>
   <style>
-   .contactdiv {
+  .contactdiv {
   background: #000;
   color: #fff;
   font-family: 'Courier New', monospace;
   display: flex;
   justify-content: center;
   padding: 50px;
-
+}   /* ← tu właśnie brakowało zamknięcia! */
 
 .contact-form {
   background: #111;
@@ -472,7 +472,21 @@ This painting is inspired by my personal experience of being ill with a high fev
   max-width: 500px;
   border: 1px solid #333;
   font-family: 'Courier New', monospace;
-  
+}
+
+/* 📱 MOBILE FIX */
+@media (max-width: 768px) {
+  .contactdiv {
+    padding: 20px 10px;
+    justify-content: center;
+  }
+
+  .contact-form {
+    max-width: 100% !important; /* nadpisanie wąskiego max-width */
+    width: 100% !important;
+    margin: 0;
+    border-radius: 8px;  /* zostawiam zaokrąglenie */
+  }
 }
 
 .contact-form h1 {
