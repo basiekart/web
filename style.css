@@ -1,0 +1,991 @@
+* {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+body {
+  overflow-x: hidden;
+  margin:0;
+  padding:0;
+  height: 100%;
+}
+    html, body {
+      width: 100%;
+      min-height: 100%;
+      font-family: 'Abel', sans-serif;
+      scroll-behavior: smooth;
+      background-color: #000000;
+      color: white;
+     
+    }
+
+    nav {
+      width: 100%;
+      height: 94px;
+       background-color: rgba(0, 0, 0, 0.9);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 30px;
+      position: sticky;
+      top: 0;
+      z-index: 10;
+       transition: top 0.3s ease; /* płynne chowanie/pokazywanie */
+    }
+
+    .logo {
+      height: 81px;
+      width: 80px;
+      background: url('https://i.postimg.cc/63pXb8GN/6ee6eff3-6b0d-4422-b208-b253d4fd77ef.jpg') no-repeat center/cover;
+      
+      cursor: pointer;
+    }
+
+    .nav-links a {
+      color: #54D2E9;
+      font-size: 25px;
+      margin-left: 40px;
+      text-decoration: none;
+      transition: color 0.3s;
+    }
+
+    .nav-links a:hover {
+      color: white;
+    }
+
+ #hero {
+   
+
+  position: relative;
+  width: 100vw;
+  height: 1700px; /* zamiast 100vw */
+  overflow: hidden;
+}
+
+.bg-img, .blink-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%; /* zamiast 100vw */
+  height: 100%; /* zamiast auto */
+  object-fit: cover;
+  display: block;
+   clip-path: inset(0px 0px 800px 0px);
+}
+
+.blink-img {
+  opacity: 0;
+  transition: opacity 0.1s ease-in-out;
+  pointer-events: none;
+  z-index: 2;
+}
+.gradient-rectangle {
+ position: absolute;
+  bottom: 798px; /* od dołu kontenera przesunięty o 700px - czyli zaczyna się na wysokości widocznej części obrazka */
+  left: 0;
+  width: 100%;
+  height: 300px; /* wysokość gradientu */
+  background: linear-gradient(to top, rgba(0, 0, 0, 1), transparent);
+  z-index: 3;
+  pointer-events: none;
+}
+.gradient-rectangle2 {
+  position: absolute;
+  top: 0;          /* przy górnej krawędzi kontenera */
+  left: 0;
+  width: 100%;
+  height: 200px;   /* wysokość gradientu u góry */
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 1), transparent);
+  z-index: 3;
+  pointer-events: none;
+}
+
+
+    .title {
+      position: absolute;
+      top: 5%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+      font-family: 'Hind Madurai';
+      font-size: 75px;
+      color: white;
+      text-shadow: 0px 7px 27.2px #000000;
+      font-weight: normal;
+      z-index: 3;
+      
+  transform: translate(-50%, -100px);
+  opacity: 0;
+  animation: przesunNaSrodek 1.4s ease-out forwards, goraDol 2s ease-in-out 1s infinite alternate;
+}
+
+
+
+   .artwork-section {
+      max-width: 900px;
+      margin: 0 auto;
+    }
+
+    .artwork-title {
+      font-size: 1.7rem;
+      margin-bottom: 30px;
+    }
+
+    .row {
+      display: flex;
+      gap: 10px;
+      margin-bottom: 60px;
+      
+    }
+
+    .column {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+       align-items: center; 
+       margin-bottom: 60px;
+    }
+
+    .artwork {
+      background-color: #ccc;
+      width: 100%;
+      object-fit: cover;
+      
+      
+    }
+
+    .vertical {
+      aspect-ratio: 2 / 3; /* proporcje 70x50 cm */
+      max-width:500px;
+     
+      
+    }
+.vertical-no{
+      aspect-ratio: 2.4 / 3; /* proporcje 70x50 cm */
+      max-width:500px;
+     
+      
+    }
+
+    .horizontal {
+      aspect-ratio: 3 / 2; /* proporcje 70x50 cm w poziomie */
+      max-width:1400px;
+      
+    }
+
+    .caption {
+      margin-top: 5px;
+      font-size: 1.5rem;
+    }
+
+    .caption-title {
+      font-weight: bold;
+    }
+
+    .caption-size {
+      font-size: 1rem;
+      color: #aaa;
+    }
+
+
+
+/* Efekt hover dla artwork */
+.artwork-wrapper {
+    position: relative;
+    overflow: hidden;
+}
+
+.artwork {
+    transition: opacity 0.3s ease;
+}
+
+.artwork-wrapper:hover .artwork {
+    opacity: 0.5;
+}
+
+.description {
+   position: absolute;
+   bottom: 60px;
+   left: 0;
+   right: 0;
+   color: white;
+   padding: 20px !important;
+   margin: 0 !important;
+   opacity: 0;
+   transition: opacity 0.3s ease;
+   text-shadow: 2px 2px 4px rgba(0,0,0,0.9);
+   font-size: 1.6em;
+   background: linear-gradient(transparent, rgba(0,0,0,0.7));
+   z-index: 10;
+   box-sizing: border-box;
+}
+.artwork-wrapper:hover .description {
+    opacity: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+   .o-mnie-container {
+    display: flex;
+    justify-content: center; /* środkowanie całego bloku */
+    align-items: center;
+    padding: 40px 20px;
+ 
+    color: white;
+  
+     z-index:90;
+  }
+
+  .o-mnie-container img.nawystawie {
+    width: 600px;
+    border-radius: 3px;
+    margin-right: 90px;
+    z-index:3;
+  }
+
+  .opis-o-mnie {
+    max-width: 800px;
+    line-height: 1.6;
+    z-index:3;
+    font-family:'Hind Madurai';
+  }
+
+  .opis-o-mnie strong {
+    font-size: 18px;
+    display: block;
+    margin-bottom: 10px;
+  }
+.opis-o-mnie p {
+  font-size: 26px;
+}
+
+
+.wrapper {
+    max-width: 1160px;   /* ogranicza szerokość całego bloku */
+   
+   margin: -660px auto 0 auto; 
+  margin-bottom: 220px;
+  
+  }
+
+@keyframes przesunNaSrodek {
+  to {
+    transform: translate(-50%, 0);
+    opacity: 1;
+  }
+}
+/*
+@keyframes goraDol {
+  from {
+    transform: translate(-50%, 0);
+  }
+  to {
+    transform: translate(-50%, 20px);
+  }
+} */
+    .nawystawie {
+      width: 800px;
+      border-radius: 10px;
+      box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.25);
+      margin: 40px auto;
+      display: block;
+    }
+
+    section {
+      min-height: 500px;
+      padding: 50px 10%;
+      background-color: #000000;
+      margin-bottom: 40px;
+      border-radius: 20px;
+    }
+
+    #artwork { background-color: #000000; }
+    #exhibitions { background-color:#000000; }
+    #biography { background-color: #000000; }
+    #shop { background-color: #000000; }
+
+[data-reveal] {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: all 0.6s ease-out;
+}
+
+[data-reveal].visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+ .hero-video-mobile {
+        display:none;
+  
+      }
+.video-scroll-overlay {
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   background: transparent;
+   z-index: 5;
+   touch-action: pan-y; /* Pozwala na scroll w pionie */
+}
+  
+
+/*---------*/
+
+   .exhibitions {
+            max-width: 800px;
+            margin: 80px auto;
+            padding: 0 40px;
+        }
+        
+        .exhibitions h2 {
+            font-size: 2.5rem;
+            font-weight: 300;
+            text-align: center;
+            margin-bottom: 60px;
+            letter-spacing: 1px;
+            color: #dbdbdb;
+        }
+        
+        .exhibition-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+            text-align: left;
+            padding: 0 20px;
+        }
+        
+        .exhibition-date {
+            font-size: 1.5rem;
+            color: #7a7a7a;
+            letter-spacing: 0.5px;
+            width: 120px;
+        }
+        
+        .exhibition-title {
+            font-size: 1.5rem;
+            color: #54D2E9;
+            font-weight: 400;
+            flex: 1;
+            margin: 0 20px;
+        }
+        
+        .exhibition-location {
+            font-size: 1.5rem;
+            color: white;
+            width: 80px;
+            text-align: center;
+          margin-right: 20px;
+        }
+        
+        .exhibition-type {
+            font-size: 1.5rem;
+            color: #919191;
+            width: 120px;
+            text-align: right;
+        }
+        
+        .divider {
+            width: 100%;
+            height: 1px;
+            background-color: #333;
+            margin: 20px 0;
+        }
+        
+        .exhibition-item:last-child + .divider {
+            display: none;
+        }
+        
+        @media (max-width: 768px) {
+            .exhibitions {
+                padding: 0 20px;
+                margin: 60px auto;
+            }
+            
+            .exhibitions h2 {
+                font-size: 2rem;
+                margin-bottom: 40px;
+            }
+            
+            .exhibition-item {
+                flex-direction: column;
+                align-items: flex-start;
+                padding: 0 10px;
+                margin-bottom: 15px;
+            }
+            
+            .exhibition-item > div {
+                margin: 2px 0;
+                min-width: auto;
+                text-align: left;
+            }
+            
+            .divider {
+                margin: 15px 0;
+            }
+        }
+
+
+
+
+
+.gallery-container {
+    margin-top: 80px;
+    overflow: hidden;
+    position: relative;
+    max-width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.gallery-strip {
+    display: flex;
+    transition: transform 0.8s ease-in-out;
+    gap: 20px;
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+
+.gallery-image {
+    width: 400px;
+    height: 350px;
+    object-fit: cover;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: transform 0.3s ease;
+    flex-shrink: 0;
+    pointer-events: auto;
+    -webkit-user-drag: none;
+    -khtml-user-drag: none;
+    -moz-user-drag: none;
+    -o-user-drag: none;
+    user-drag: none;
+}
+
+.gallery-image:hover {
+    transform: scale(1.05);
+}
+
+.fullscreen-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.9);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    cursor: pointer;
+}
+
+.fullscreen-image {
+    max-width: 90%;
+    max-height: 90%;
+    object-fit: contain;
+}
+
+
+
+#sketches .carousel-2{
+   margin: 0;
+  padding: 0;
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+}
+/*-------------------*/
+.carousel {
+      background: black;
+
+    }
+    .carousel-cell {
+     width: auto;
+      margin-right: 10px;
+      gap:10px;
+      max-height:500px;
+    }
+    .carousel-cell img {
+      display: block;
+      width: auto;
+      height: auto;
+      max-height:500px;
+      
+      gap:10px;
+    }
+
+
+
+
+.footer {
+  background-color: #222;
+  color: #eee;
+  padding: 20px 10px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+}
+
+.footer-content {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.instagram-icon {
+  display: inline-block;
+  color: #E1306C; /* kolor Instagrama */
+  transition: color 0.3s ease;
+  text-decoration: none;
+}
+
+.instagram-icon svg {
+  width: 28px;
+  height: 28px;
+  fill: currentColor;
+  vertical-align: middle;
+}
+
+.instagram-icon:hover,
+.instagram-icon:focus {
+  color: #c1275b;
+  outline: none;
+}
+
+.footer p {
+  margin-top: 15px;
+  font-size: 13px;
+  color: #aaa;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*------------*/
+
+ /* TABLET - 1024px */
+    @media screen and (max-width: 1024px) {
+      nav {
+        height: 80px;
+        padding: 0 20px;
+      }
+
+      .logo {
+        height: 60px;
+        width: 60px;
+      }
+
+      .nav-links a {
+        font-size: 22px;
+        margin-left: 30px;
+      }
+
+      #hero {
+        height: 1400px;
+      }
+
+      .bg-img, .blink-img {
+        clip-path: inset(0px 0px 600px 0px);
+      }
+
+      .gradient-rectangle {
+        bottom: 598px;
+      }
+
+      .title {
+        font-size: 60px;
+      }
+
+      .wrapper {
+        max-width: 900px;
+        margin: -500px auto 0 auto;
+        margin-bottom: 180px;
+      }
+
+      .o-mnie-container {
+        padding: 30px 15px;
+      }
+
+      .o-mnie-container img.nawystawie {
+        width: 450px;
+        margin-right: 60px;
+      }
+
+      .opis-o-mnie p {
+        font-size: 22px;
+      }
+
+      .artwork-title {
+        font-size: 1.8rem;
+      }
+
+      .vertical {
+        max-width: 400px;
+      }
+
+      .caption {
+        font-size: 1.3rem;
+        text-align: left;
+      }
+      .description {
+        font-size: 20px;
+       
+      }
+
+      section {
+        padding: 40px 5%;
+      }
+    }
+
+    /* MOBILE - 768px */
+    @media screen and (max-width: 768px) {
+      
+       #hero {
+        height: 1020px;
+      }
+      
+      nav {
+        height: 70px;
+        padding: 0 15px;
+      }
+
+      .logo {
+        height: 50px;
+        width: 50px;
+      }
+
+      
+    .hamburger {
+    display: flex; /* ZMIEŃ Z display: none; */
+    flex-direction: column;
+    cursor: pointer;
+    gap: 4px;
+    z-index: 11; /* wyżej niż nawigacja */
+  }
+
+   .hamburger span {
+  width: 25px;
+  height: 3px !important; /* !important aby nadpisać inne reguły */
+  background-color: #54D2E9;
+  border-radius: 2px;
+  display: block;
+  transition: all 0.3s ease;
+}
+
+/* Animacja hamburger ikony po kliknięciu */
+.hamburger.active span:nth-child(1) {
+  transform: rotate(-45deg) translate(-4px, 6px);
+}
+
+.hamburger.active span:nth-child(2) {
+  opacity: 0;
+}
+
+.hamburger.active span:nth-child(3) {
+  transform: rotate(45deg) translate(-4px, -6px);
+}
+
+      .nav-links {
+         position: fixed;
+    top: -120vh; /* ukryte powyżej ekranu */
+    left: 0;
+    width: 100%;
+    height: calc(100vh - 70px);
+    background-color: rgba(0, 0, 0, 0.95);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 50px;
+    transition: top 0.4s ease-in-out; /* animacja góra-dół */
+    z-index: 10;
+      }
+
+     .nav-links.show,
+  .nav-links.active {
+    top: 70px; /* zjechało na właściwą pozycję */
+  }
+
+  .nav-links a {
+    font-size: 24px;
+    margin: 20px 0;
+    margin-left: 0;
+  }
+
+      #hero {
+       /* height: 600px;*/
+        
+      }
+
+      .bg-img, .blink-img {
+     /*   clip-path: inset(0px 0px 300px 0px);
+        top:-30px; */
+        display:none;
+      }
+
+      .gradient-rectangle {
+        bottom: 0px;
+        height: 200px;
+      }
+
+      .gradient-rectangle2 {
+        height: 150px;
+      }
+
+      .title {
+        font-size: 45px;
+        line-height: 1.1;
+      }
+
+      .wrapper {
+        max-width: 95%;
+        margin: -300px auto 0 auto;
+        margin-bottom: 120px;
+      }
+
+      .o-mnie-container {
+        flex-direction: column;
+        text-align: center;
+        padding: 20px 10px;
+      }
+
+     .o-mnie-container img.nawystawie {
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto 70px auto; /* góra 0, lewo/prawo auto (wyśrodkowanie), dół 70px */
+  display: block;
+}
+
+      .opis-o-mnie {
+        max-width: 100%;
+      }
+
+      .opis-o-mnie p {
+        font-size: 18px;
+      }
+
+      .artwork-title {
+        font-size: 1.6rem;
+      }
+
+      .row {
+        flex-direction: column;
+        gap: 30px;
+        margin-bottom: 40px;
+      }
+
+      .vertical {
+        max-width: 100%;
+        width: 100%;
+      }
+
+      .horizontal {
+        width: 100%;
+      }
+
+      .caption {
+        font-size: 1.2rem;
+        text-align: left;
+      }
+      .description {
+       font-size:23px;
+      }
+
+      section {
+        padding: 30px 5%;
+        margin-bottom: 20px;
+      }
+      
+      /*  VIDEOOOOO  */
+   .hero-video-mobile {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain; /* pokaże CAŁE wideo, nie przytnie */
+}
+      
+    }
+
+
+    /* SMALL MOBILE - 480px */
+    @media screen and (max-width: 480px) {
+      .title {
+        font-size: 35px;
+      }
+ #hero {
+        height: 900px;
+      }
+      .opis-o-mnie p {
+        font-size: 16px;
+      }
+
+      .artwork-title {
+        font-size: 1.4rem;
+      }
+
+      .caption {
+        font-size: 1.1rem;
+        text-align: left;
+      }
+
+      .caption-size {
+        font-size: 0.9rem;
+      }
+      
+       .gradient-rectangle {
+        bottom: 0px;
+         height:400px;
+      }
+            /*  VIDEOOOOO  */
+.hero-video-mobile {
+  top:10px;
+  position: relative;
+  width: 100%;
+  height: 200vh; /* Pełna wysokość ekranu, możesz zmienić */
+  overflow: hidden;
+}
+
+.hero-video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Wypełnia całość, może kadrować */
+  object-position: center center; /* Wyśrodkowane */
+  display: block;
+}
+
+.video-scroll-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  /* Tutaj możesz dać tło lub efekt maski, jeśli chcesz */
+}
+
+    }
+
+
+.footer .footer-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+/* Nowa sekcja na ikony */
+.footer .social-icons {
+  display: flex;
+  align-items: center; /* <-- to sprawia, że są na jednym poziomie */
+  gap: 12px;
+}
+
+.footer .social-icons a {
+  display: flex;            /* klucz! */
+  align-items: center;      /* wyrównanie grafik w środku */
+  justify-content: center;
+  transition: transform 0.2s ease;
+}
+
+.footer .social-icons svg,
+.footer .social-icons img {
+  width: 28px;
+  height: 28px;
+  display: block; /* usuwa dodatkowe odstępy w <img> */
+}
+
+.footer .social-icons a:hover {
+  transform: scale(1.1);
+}
+
+/*////////////////////////////////////////////////////////////*/
+
+/* ARTWORK — MOBILE: 1 obraz/wiersz + overlay na całym obrazie */
+@media (max-width: 900px) {
+  .artwork-section .row {
+    display: block !important;      /* zeruje flex układ 2 kolumn */
+    gap: 0 !important;
+  }
+  .artwork-section .column {
+    flex: 0 0 100% !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    margin-bottom: 28px !important;
+  }
+
+  .artwork-section .artwork-wrapper {
+    position: relative !important;
+    overflow: hidden !important;
+  }
+  .artwork-section .artwork {
+    display: block !important;
+    width: 100% !important;
+    height: auto !important;
+    max-width: 100% !important;
+    object-fit: cover !important;
+  }
+
+  /* opis = pełne pokrycie obrazu, przewijany wewnątrz */
+  .artwork-section .description {
+    position: absolute !important;
+    inset: 0 !important;            /* top/right/bottom/left: 0 */
+    margin: 0 !important;
+    padding: 14px 14px 18px !important;
+    opacity: 1 !important;          /* mobile nie ma hover */
+    overflow-y: auto !important;
+    -webkit-overflow-scrolling: touch;
+    background: linear-gradient(
+      180deg,
+      rgba(0,0,0,.72) 0%,
+      rgba(0,0,0,.62) 35%,
+      rgba(0,0,0,.9) 100%
+    ) !important;
+    text-shadow: 0 1px 2px rgba(0,0,0,.75);
+    font-size: clamp(12px, 3.6vw, 16px) !important;
+    line-height: 1.35 !important;
+  }
+
+  .artwork-section .artwork-wrapper:hover .artwork,
+  .artwork-section .artwork-wrapper:hover .description {
+    opacity: 1 !important;
+  }
+
+  .artwork-section .caption {
+    margin-top: 10px !important;
+  }
+}
+
+@media (max-width: 480px) {
+  .artwork-section .description {
+    font-size: clamp(11px, 4vw, 15px) !important;
+    padding: 12px 12px 14px !important;
+  }
+}
