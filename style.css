@@ -1,4 +1,5 @@
-* {
+
+    * {
       margin: 0;
       padding: 0;
       box-sizing: border-box;
@@ -405,103 +406,67 @@ body {
         .exhibition-item:last-child + .divider {
             display: none;
         }
-        
-        @media (max-width: 768px) {
-            .exhibitions {
-                padding: 0 20px;
-                margin: 60px auto;
-            }
-            
-            .exhibitions h2 {
-                font-size: 2rem;
-                margin-bottom: 40px;
-            }
-            
-            .exhibition-item {
-                flex-direction: column;
-                align-items: flex-start;
-                padding: 0 10px;
-                margin-bottom: 15px;
-            }
-            
-            .exhibition-item > div {
-                margin: 2px 0;
-                min-width: auto;
-                text-align: left;
-            }
-            
-            .divider {
-                margin: 15px 0;
-            }
-        }
+      /* ========== GLOBAL BASE STYLES ========== */
 
+/* Exhibitions */
+.exhibitions {
+  /* globalne tu jeśli potrzebujesz */
+}
+.exhibitions h2 { }
+.exhibition-item { }
+.exhibition-item > div { }
+.divider { }
 
-
-
-
+/* Gallery */
 .gallery-container {
-    margin-top: 80px;
-    overflow: hidden;
-    position: relative;
-    max-width: 1100px;
-    margin-left: auto;
-    margin-right: auto;
+  margin-top: 80px;
+  max-width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+  position: relative;
 }
-
 .gallery-strip {
-    display: flex;
-    transition: transform 0.8s ease-in-out;
-    gap: 20px;
-    user-select: none;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
+  display: flex;
+  gap: 20px;
+  transition: transform 0.8s ease-in-out;
+  user-select: none;
 }
-
 .gallery-image {
-    width: 400px;
-    height: 350px;
-    object-fit: cover;
-    cursor: pointer;
-    border-radius: 5px;
-    transition: transform 0.3s ease;
-    flex-shrink: 0;
-    pointer-events: auto;
-    -webkit-user-drag: none;
-    -khtml-user-drag: none;
-    -moz-user-drag: none;
-    -o-user-drag: none;
-    user-drag: none;
+  width: 400px;
+  height: 350px;
+  object-fit: cover;
+  flex-shrink: 0;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: transform 0.3s ease;
+  pointer-events: auto;
+  user-drag: none;
 }
-
 .gallery-image:hover {
-    transform: scale(1.05);
+  transform: scale(1.05);
 }
-
 .fullscreen-overlay {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 100vh;
-    background: rgba(0, 0, 0, 0.9);
-    display: none;
-    justify-content: center;
-    align-items: center;
-    z-index: 1000;
-    cursor: pointer;
+  position: fixed;
+  top: 0; left: 0;
+  width: 100vw;
+  height: 100vh;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0,0,0,0.9);
+  z-index: 1000;
+  cursor: pointer;
 }
-
 .fullscreen-image {
-    max-width: 90%;
-    max-height: 90%;
-    object-fit: contain;
+  max-width: 90%;
+  max-height: 90%;
+  object-fit: contain;
 }
 
-
-
-#sketches .carousel-2{
-   margin: 0;
+/* Carousel */
+#sketches .carousel-2 {
+  margin: 0;
   padding: 0;
   width: 100vw;
   position: relative;
@@ -510,29 +475,24 @@ body {
   margin-left: -50vw;
   margin-right: -50vw;
 }
-/*-------------------*/
 .carousel {
-      background: black;
+  background: black;
+}
+.carousel-cell {
+  width: auto;
+  margin-right: 10px;
+  gap: 10px;
+  max-height: 500px;
+}
+.carousel-cell img {
+  display: block;
+  width: auto;
+  height: auto;
+  max-height: 500px;
+  object-fit: contain;
+}
 
-    }
-    .carousel-cell {
-     width: auto;
-      margin-right: 10px;
-      gap:10px;
-      max-height:500px;
-    }
-    .carousel-cell img {
-      display: block;
-      width: auto;
-      height: auto;
-      max-height:500px;
-      
-      gap:10px;
-    }
-
-
-
-
+/* Footer */
 .footer {
   background-color: #222;
   color: #eee;
@@ -541,397 +501,93 @@ body {
   font-family: Arial, sans-serif;
   font-size: 14px;
 }
-
 .footer-content {
   max-width: 600px;
   margin: 0 auto;
 }
-
 .instagram-icon {
   display: inline-block;
-  color: #E1306C; /* kolor Instagrama */
-  transition: color 0.3s ease;
+  color: #E1306C;
   text-decoration: none;
+  transition: color 0.3s ease;
 }
-
 .instagram-icon svg {
   width: 28px;
   height: 28px;
   fill: currentColor;
   vertical-align: middle;
 }
-
 .instagram-icon:hover,
 .instagram-icon:focus {
   color: #c1275b;
   outline: none;
 }
-
 .footer p {
   margin-top: 15px;
   font-size: 13px;
   color: #aaa;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*------------*/
-
- /* TABLET - 1024px */
-    @media screen and (max-width: 1024px) {
-      nav {
-        height: 80px;
-        padding: 0 20px;
-      }
-
-      .logo {
-        height: 60px;
-        width: 60px;
-      }
-
-      .nav-links a {
-        font-size: 22px;
-        margin-left: 30px;
-      }
-
-      #hero {
-        height: 1400px;
-      }
-
-      .bg-img, .blink-img {
-        clip-path: inset(0px 0px 600px 0px);
-      }
-
-      .gradient-rectangle {
-        bottom: 598px;
-      }
-
-      .title {
-        font-size: 60px;
-      }
-
-      .wrapper {
-        max-width: 900px;
-        margin: -500px auto 0 auto;
-        margin-bottom: 180px;
-      }
-
-      .o-mnie-container {
-        padding: 30px 15px;
-      }
-
-      .o-mnie-container img.nawystawie {
-        width: 450px;
-        margin-right: 60px;
-      }
-
-      .opis-o-mnie p {
-        font-size: 22px;
-      }
-
-      .artwork-title {
-        font-size: 1.8rem;
-      }
-
-      .vertical {
-        max-width: 400px;
-      }
-
-      .caption {
-        font-size: 1.3rem;
-        text-align: left;
-      }
-      .description {
-        font-size: 20px;
-       
-      }
-
-      section {
-        padding: 40px 5%;
-      }
-    }
-
-    /* MOBILE - 768px */
-    @media screen and (max-width: 768px) {
-      
-       #hero {
-        height: 1020px;
-      }
-      
-      nav {
-        height: 70px;
-        padding: 0 15px;
-      }
-
-      .logo {
-        height: 50px;
-        width: 50px;
-      }
-
-      
-    .hamburger {
-    display: flex; /* ZMIEŃ Z display: none; */
-    flex-direction: column;
-    cursor: pointer;
-    gap: 4px;
-    z-index: 11; /* wyżej niż nawigacja */
-  }
-
-   .hamburger span {
-  width: 25px;
-  height: 3px !important; /* !important aby nadpisać inne reguły */
-  background-color: #54D2E9;
-  border-radius: 2px;
-  display: block;
-  transition: all 0.3s ease;
-}
-
-/* Animacja hamburger ikony po kliknięciu */
-.hamburger.active span:nth-child(1) {
-  transform: rotate(-45deg) translate(-4px, 6px);
-}
-
-.hamburger.active span:nth-child(2) {
-  opacity: 0;
-}
-
-.hamburger.active span:nth-child(3) {
-  transform: rotate(45deg) translate(-4px, -6px);
-}
-
-      .nav-links {
-         position: fixed;
-    top: -120vh; /* ukryte powyżej ekranu */
-    left: 0;
-    width: 100%;
-    height: calc(100vh - 70px);
-    background-color: rgba(0, 0, 0, 0.95);
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-    padding-top: 50px;
-    transition: top 0.4s ease-in-out; /* animacja góra-dół */
-    z-index: 10;
-      }
-
-     .nav-links.show,
-  .nav-links.active {
-    top: 70px; /* zjechało na właściwą pozycję */
-  }
-
-  .nav-links a {
-    font-size: 24px;
-    margin: 20px 0;
-    margin-left: 0;
-  }
-
-      #hero {
-       /* height: 600px;*/
-        
-      }
-
-      .bg-img, .blink-img {
-     /*   clip-path: inset(0px 0px 300px 0px);
-        top:-30px; */
-        display:none;
-      }
-
-      .gradient-rectangle {
-        bottom: 0px;
-        height: 200px;
-      }
-
-      .gradient-rectangle2 {
-        height: 150px;
-      }
-
-      .title {
-        font-size: 45px;
-        line-height: 1.1;
-      }
-
-      .wrapper {
-        max-width: 95%;
-        margin: -300px auto 0 auto;
-        margin-bottom: 120px;
-      }
-
-      .o-mnie-container {
-        flex-direction: column;
-        text-align: center;
-        padding: 20px 10px;
-      }
-
-     .o-mnie-container img.nawystawie {
-  width: 100%;
-  max-width: 400px;
-  margin: 0 auto 70px auto; /* góra 0, lewo/prawo auto (wyśrodkowanie), dół 70px */
-  display: block;
-}
-
-      .opis-o-mnie {
-        max-width: 100%;
-      }
-
-      .opis-o-mnie p {
-        font-size: 18px;
-      }
-
-      .artwork-title {
-        font-size: 1.6rem;
-      }
-
-      .row {
-        flex-direction: column;
-        gap: 30px;
-        margin-bottom: 40px;
-      }
-
-      .vertical {
-        max-width: 100%;
-        width: 100%;
-      }
-
-      .horizontal {
-        width: 100%;
-      }
-
-      .caption {
-        font-size: 1.2rem;
-        text-align: left;
-      }
-      .description {
-       font-size:23px;
-      }
-
-      section {
-        padding: 30px 5%;
-        margin-bottom: 20px;
-      }
-      
-      /*  VIDEOOOOO  */
-   .hero-video-mobile {
-  display: block;
-  width: 100%;
-  height: 100%;
-  object-fit: contain; /* pokaże CAŁE wideo, nie przytnie */
-}
-      
-    }
-
-
-    /* SMALL MOBILE - 480px */
-    @media screen and (max-width: 480px) {
-      .title {
-        font-size: 35px;
-      }
- #hero {
-        height: 900px;
-      }
-      .opis-o-mnie p {
-        font-size: 16px;
-      }
-
-      .artwork-title {
-        font-size: 1.4rem;
-      }
-
-      .caption {
-        font-size: 1.1rem;
-        text-align: left;
-      }
-
-      .caption-size {
-        font-size: 0.9rem;
-      }
-      
-       .gradient-rectangle {
-        bottom: 0px;
-         height:400px;
-      }
-            /*  VIDEOOOOO  */
-.hero-video-mobile {
-  top:10px;
-  position: relative;
-  width: 100%;
-  height: 200vh; /* Pełna wysokość ekranu, możesz zmienić */
-  overflow: hidden;
-}
-
-.hero-video {
-  width: 100%;
-  height: 100%;
-  object-fit: cover; /* Wypełnia całość, może kadrować */
-  object-position: center center; /* Wyśrodkowane */
-  display: block;
-}
-
-.video-scroll-overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  /* Tutaj możesz dać tło lub efekt maski, jeśli chcesz */
-}
-
-    }
-
-
 .footer .footer-content {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 10px;
 }
-
-/* Nowa sekcja na ikony */
 .footer .social-icons {
   display: flex;
-  align-items: center; /* <-- to sprawia, że są na jednym poziomie */
+  align-items: center;
   gap: 12px;
 }
-
 .footer .social-icons a {
-  display: flex;            /* klucz! */
-  align-items: center;      /* wyrównanie grafik w środku */
+  display: flex;
+  align-items: center;
   justify-content: center;
   transition: transform 0.2s ease;
 }
-
 .footer .social-icons svg,
 .footer .social-icons img {
   width: 28px;
   height: 28px;
-  display: block; /* usuwa dodatkowe odstępy w <img> */
+  display: block;
 }
-
 .footer .social-icons a:hover {
   transform: scale(1.1);
 }
 
-/*////////////////////////////////////////////////////////////*/
+/* Artwork (desktop default) */
+.artwork-section .row { display: flex; }
+.artwork-section .column { flex: 1; }
+.artwork-section .artwork { object-fit: cover; }
 
-/* ARTWORK — MOBILE: 1 obraz/wiersz + overlay na całym obrazie */
+/* ========== MEDIA QUERIES ========== */
+
+/* 1024px (Tablet landscape) */
+@media screen and (max-width: 1024px) {
+  nav { height: 80px; padding: 0 20px; }
+  .logo { height: 60px; width: 60px; }
+  .nav-links a { font-size: 22px; margin-left: 30px; }
+  #hero { height: 1400px; }
+  .bg-img, .blink-img { clip-path: inset(0px 0px 600px 0px); }
+  .gradient-rectangle { bottom: 598px; }
+  .title { font-size: 60px; }
+  .wrapper { max-width: 900px; margin: -500px auto 180px auto; }
+  .o-mnie-container { padding: 30px 15px; }
+  .o-mnie-container img.nawystawie { width: 450px; margin-right: 60px; }
+  .opis-o-mnie p { font-size: 22px; }
+  .artwork-title { font-size: 1.8rem; }
+  .vertical { max-width: 400px; }
+  .caption { font-size: 1.3rem; text-align: left; }
+  .description { font-size: 20px; }
+  section { padding: 40px 5%; }
+
+  /* Carousel scale down */
+  .carousel-cell img { max-height: 300px; }
+}
+
+/* 900px (Artwork mobile layout) */
 @media (max-width: 900px) {
   .artwork-section .row {
-    display: block !important;      /* zeruje flex układ 2 kolumn */
+    display: block !important;
     gap: 0 !important;
   }
   .artwork-section .column {
@@ -940,7 +596,6 @@ body {
     max-width: 100% !important;
     margin-bottom: 28px !important;
   }
-
   .artwork-section .artwork-wrapper {
     position: relative !important;
     overflow: hidden !important;
@@ -949,19 +604,15 @@ body {
     display: block !important;
     width: 100% !important;
     height: auto !important;
-    max-width: 100% !important;
     object-fit: cover !important;
   }
-
-  /* opis = pełne pokrycie obrazu, przewijany wewnątrz */
   .artwork-section .description {
     position: absolute !important;
-    inset: 0 !important;            /* top/right/bottom/left: 0 */
+    inset: 0 !important;
     margin: 0 !important;
     padding: 14px 14px 18px !important;
-    opacity: 1 !important;          /* mobile nie ma hover */
+    opacity: 1 !important;
     overflow-y: auto !important;
-    -webkit-overflow-scrolling: touch;
     background: linear-gradient(
       180deg,
       rgba(0,0,0,.72) 0%,
@@ -972,18 +623,98 @@ body {
     font-size: clamp(12px, 3.6vw, 16px) !important;
     line-height: 1.35 !important;
   }
+  .artwork-section .caption { margin-top: 10px !important; }
+}
 
-  .artwork-section .artwork-wrapper:hover .artwork,
-  .artwork-section .artwork-wrapper:hover .description {
-    opacity: 1 !important;
+/* 768px (Tablet portrait / large mobile) */
+@media screen and (max-width: 768px) {
+  #hero { height: 1020px; }
+  nav { height: 70px; padding: 0 15px; }
+  .logo { height: 50px; width: 50px; }
+
+  /* Hamburger menu */
+  .hamburger { display: flex; flex-direction: column; cursor: pointer; gap:4px; z-index:11; }
+  .hamburger span {
+    width: 25px; height: 3px !important;
+    background-color: #54D2E9; border-radius: 2px;
+    display:block; transition: all 0.3s ease;
+  }
+  .hamburger.active span:nth-child(1) {
+    transform: rotate(-45deg) translate(-4px, 6px);
+  }
+  .hamburger.active span:nth-child(2) { opacity: 0; }
+  .hamburger.active span:nth-child(3) {
+    transform: rotate(45deg) translate(-4px, -6px);
   }
 
-  .artwork-section .caption {
-    margin-top: 10px !important;
+  .nav-links {
+    position: fixed;
+    top: -120vh; left: 0;
+    width: 100%; height: calc(100vh - 70px);
+    background-color: rgba(0,0,0,0.95);
+    display: flex; flex-direction: column; align-items: center;
+    padding-top: 50px;
+    transition: top 0.4s ease-in-out;
+    z-index: 10;
+  }
+  .nav-links.show, .nav-links.active { top: 70px; }
+  .nav-links a { font-size: 24px; margin: 20px 0; }
+
+  .bg-img, .blink-img { display: none; }
+  .gradient-rectangle { bottom: 0; height: 200px; }
+  .gradient-rectangle2 { height: 150px; }
+  .title { font-size: 45px; line-height: 1.1; }
+  .wrapper { max-width: 95%; margin: -300px auto 120px auto; }
+
+  .o-mnie-container {
+    flex-direction: column; text-align: center; padding: 20px 10px;
+  }
+  .o-mnie-container img.nawystawie {
+    width: 100%; max-width: 400px; margin: 0 auto 70px;
+    display: block;
+  }
+  .opis-o-mnie p { font-size: 18px; }
+  .artwork-title { font-size: 1.6rem; }
+  .row { flex-direction: column; gap:30px; margin-bottom: 40px; }
+  .vertical, .horizontal { max-width:100%; width:100%; }
+  .caption { font-size:1.2rem; text-align:left; }
+  .description { font-size: 23px; }
+  section { padding: 30px 5%; margin-bottom:20px; }
+
+  /* Video mobile */
+  .hero-video-mobile {
+    display:block; width:100%; height:100%;
+    object-fit: contain;
   }
 }
 
-@media (max-width: 480px) {
+/* 480px (small mobile) */
+@media screen and (max-width: 480px) {
+  .title { font-size: 35px; }
+  #hero { height: 900px; }
+  .opis-o-mnie p { font-size: 16px; }
+  .artwork-title { font-size: 1.4rem; }
+  .caption { font-size: 1.1rem; text-align:left; }
+  .caption-size { font-size: 0.9rem; }
+  .gradient-rectangle { bottom: 0; height: 400px; }
+
+  /* Mobile video tweaks */
+  .hero-video-mobile {
+    position: relative; top: 10px;
+    width: 100%; height: 200vh;
+    overflow: hidden;
+  }
+  .hero-video {
+    width: 100%; height: 100%;
+    object-fit: cover;
+    object-position: center;
+    display:block;
+  }
+  .video-scroll-overlay {
+    position: absolute; top:0; left:0; right:0; bottom:0;
+  }
+
+  /* Artwork description font scale */
   .artwork-section .description {
     font-size: clamp(11px, 4vw, 15px) !important;
     padding: 12px 12px 14px !important;
