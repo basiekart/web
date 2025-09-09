@@ -1135,3 +1135,24 @@ body {
     font-size: 1.1rem;
   }
 }
+
+/* --- HERO VIDEO FIX --- */
+@media screen and (max-width: 768px) {
+  #hero {
+    height: auto !important; /* usuwa sztywne height */
+    overflow: hidden;
+  }
+
+  .hero-video-mobile {
+    width: 100% !important;
+    max-width: 100% !important;
+    height: auto !important;
+  }
+
+  .hero-video-mobile video {
+    display: block;
+    width: 100% !important;
+    height: auto !important;
+    object-fit: contain !important; /* pokazuje całe wideo */
+  }
+}
