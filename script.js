@@ -120,11 +120,11 @@ const ARTWORKS = [
     row: "two-columns",
     items: [
       {
-        title: "Black Caption",
-        size: "Oil paint on Canvas, 100 x 100 cm",
+        title: "Echoes",
+        size: "Acrylic on Canvas, 50 x 40 cm",
         image: "https://raw.githubusercontent.com/janper8877/zdjecia/main/black_white.JPG",
         alt: "Black and White",
-        description: `Black and white`,
+        description: `Echoes`,
         layout: "vertical"
       }
     ]
