@@ -3,11 +3,11 @@ const ARTWORKS = [
     row: "two-columns",
     items: [
       {
-        title: "Girl with a Euro Earring",
+        title: "Nostalgia",
         size: "Acrylic on Canvas, 50 x 70 cm",
-        image: "https://raw.githubusercontent.com/janper8877/zdjecia/main/girl%20with%20a%20%E2%82%AC%20earring.JPEG",
-        alt: "Girl with a Euro Earring",
-        description: `"Girl with a Euro Earring" is a contemporary reimagining of Vermeer's iconic Girl with a Pearl Earring. The painting contrasts the timeless elegance of the original with modern commentary by replacing the pearl earring with a one-euro coin. The delicate expression of the girl remains, but the inclusion of the coin and abstract golden lines invites the viewer to reflect on themes of value, materialism, and the intersection of tradition and modernity. The familiar yet altered image challenges the viewer to rethink the significance of traditional values in today's world.`,
+        image: "https://raw.githubusercontent.com/janper8877/zdjecia/main/peregonczuk_barbara_nostalgia_1%20(2).png",
+        alt: "Nostalgia",
+        description: `"Nostalgia" captures the bittersweet feeling of longing for the past. The central figure's face, surrounded by textured shades of blue, evokes both calm and introspection. The vibrant eyes seem to hold memories, while the abstract background symbolizes the haziness of distant recollections. This painting invites viewers to connect with their own emotions and moments of reflection.`,
         layout: "vertical"
       },
       {
@@ -42,11 +42,11 @@ const ARTWORKS = [
     row: "two-columns",
     items: [
       {
-        title: "Nostalgia",
+        title: "Girl with a Euro Earring",
         size: "Acrylic on Canvas, 50 x 70 cm",
-        image: "https://raw.githubusercontent.com/janper8877/zdjecia/main/peregonczuk_barbara_nostalgia_1%20(2).png",
-        alt: "Nostalgia",
-        description: `"Nostalgia" captures the bittersweet feeling of longing for the past. The central figure's face, surrounded by textured shades of blue, evokes both calm and introspection. The vibrant eyes seem to hold memories, while the abstract background symbolizes the haziness of distant recollections. This painting invites viewers to connect with their own emotions and moments of reflection.`,
+        image: "https://raw.githubusercontent.com/janper8877/zdjecia/main/girl%20with%20a%20%E2%82%AC%20earring.JPEG",
+        alt: "Girl with a Euro Earring",
+        description: `"Girl with a Euro Earring" is a contemporary reimagining of Vermeer's iconic Girl with a Pearl Earring. The painting contrasts the timeless elegance of the original with modern commentary by replacing the pearl earring with a one-euro coin. The delicate expression of the girl remains, but the inclusion of the coin and abstract golden lines invites the viewer to reflect on themes of value, materialism, and the intersection of tradition and modernity. The familiar yet altered image challenges the viewer to rethink the significance of traditional values in today's world.`,
         layout: "vertical"
       },
       {
@@ -120,11 +120,11 @@ const ARTWORKS = [
     row: "two-columns",
     items: [
       {
-        title: "Echoes",
-        size: "Acrylic on Canvas, 50 x 40 cm",
+        title: "Black Caption",
+        size: "Oil paint on Canvas, 100 x 100 cm",
         image: "https://raw.githubusercontent.com/janper8877/zdjecia/main/black_white.JPG",
         alt: "Black and White",
-        description: `Echoes`,
+        description: `Black and white`,
         layout: "vertical"
       }
     ]
@@ -139,9 +139,7 @@ const EXHIBITIONS = [
   { date: "08/2024", title: "Prodigy by Sabrina Lindemann", location: "Munich", type: "group exhibition" },
   { date: "05/2024", title: "Stroke Art Fair", location: "Munich", type: "art fair" },
   { date: "01/2024", title: "innen:welt Festival", location: "Munich", type: "solo exhibition" },
-  { date: "07/2025 - 10/2025", title: "Velvet Space Coworking", location: "Munich", type: "solo exhibition" },
-  { date: "12/2025", title: "Graf Rumford Bar & Galerie", location: "Munich", type: "group exhibition" },
-  { date: "03/2026", title: "Galerie 2B", location: "Starnberg", type: "group exhibition" }
+  { date: "07/2025 - 10/2025", title: "Velvet Space Coworking", location: "Munich", type: "solo exhibition" }
 ];
 
 const GALLERY_IMAGES = [
