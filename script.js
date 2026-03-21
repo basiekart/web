@@ -139,7 +139,9 @@ const EXHIBITIONS = [
   { date: "08/2024", title: "Prodigy by Sabrina Lindemann", location: "Munich", type: "group exhibition" },
   { date: "05/2024", title: "Stroke Art Fair", location: "Munich", type: "art fair" },
   { date: "01/2024", title: "innen:welt Festival", location: "Munich", type: "solo exhibition" },
-  { date: "07/2025 - 10/2025", title: "Velvet Space Coworking", location: "Munich", type: "solo exhibition" }
+  { date: "07/2025 - 10/2025", title: "Velvet Space Coworking", location: "Munich", type: "solo exhibition" },
+  { date: "12/2025", title: "innen:welt Festival", location: "Munich", type: "solo exhibition" },
+  { date: "03/2026", title: "Galerie 2B", location: "Starnberg", type: "group exhibition" }
 ];
 
 const GALLERY_IMAGES = [
