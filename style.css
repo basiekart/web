@@ -552,7 +552,11 @@ max-width: 70%;   /* ← TU sterujesz szerokością */
     --nav-height: 70px;
   }
 
-  
+  .artwork-list {
+  display: grid;
+  gap: 60px;
+  margin-left: 0px; /* ← przesuwa całość w prawo */
+}
   
   .nav {
     padding: 0 15px;
