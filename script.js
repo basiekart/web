@@ -4,7 +4,7 @@ const ARTWORKS = [
     items: [
        {
         title: "Echoes",
-        size: "Acrylic on Canvas, 50 x 400 cm",
+        size: "Acrylic on Canvas, 50 x 40 cm",
         image: "https://raw.githubusercontent.com/janper8877/zdjecia/main/black_white.JPG",
         alt: "Black and White",
         description: `Black and white`,
@@ -12,7 +12,7 @@ const ARTWORKS = [
       },
       {
         title: "No Way Out",
-        size: "Oil paint on Canvas, 100 x 80 cm",
+        size: "Oil on Canvas, 100 x 80 cm",
         image: "https://raw.githubusercontent.com/janper8877/zdjecia/main/peregonczuk_barbara_nowayout_3%20(1).jpg",
         alt: "No Way Out",
         description: `In No Way Out, the viewer meets the intense, haunting gaze of a woman painted in grayscale. Her bright turquoise eye, the only color in the painting, draws attention and suggests both deep emotion and a feeling of being trapped. Only half of her face is shown, adding to the sense of isolation, as if she's stuck inside the frame. The strong contrast between the colorful background and her pale figure highlights her inner struggle, making the viewer feel her quiet desperation and need to escape.`,
