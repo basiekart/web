@@ -3,8 +3,8 @@ const ARTWORKS = [
     row: "two-columns",
     items: [
        {
-        title: "Black Caption",
-        size: "Oil paint on Canvas, 100 x 100 cm",
+        title: "Echoes",
+        size: "Acrylic on Canvas, 50 x 400 cm",
         image: "https://raw.githubusercontent.com/janper8877/zdjecia/main/black_white.JPG",
         alt: "Black and White",
         description: `Black and white`,
@@ -28,7 +28,7 @@ const ARTWORKS = [
     items: [
       {
         title: "Disco",
-        size: "Acrylic on Canvas, 70 x 50 cm",
+        size: "Acrylic on Canvas, 50 x 70 cm",
         image: "https://raw.githubusercontent.com/janper8877/zdjecia/main/Nowy%20projekt%20(8).png",
         alt: "Disco",
         description: `The painting "Disco" portrays a young woman whose eyes convey a mix of surprise, curiosity, and perhaps a hint of confusion. Her sideways glance and slightly open mouth suggest she is witnessing or experiencing something unexpected. The style blends realistic portraiture with abstract elements, creating a dynamic and energetic atmosphere. The background is vibrant and abstract, dominated by bright blue and orange tones interwoven with wave-like lines.`,
@@ -43,7 +43,7 @@ const ARTWORKS = [
     items: [
       {
         title: "Girl with a Euro Earring",
-        size: "Acrylic on Canvas, 50 x 70 cm",
+        size: "Acrylic on Canvas, 70 x 50 cm",
         image: "https://raw.githubusercontent.com/janper8877/zdjecia/main/girl%20with%20a%20%E2%82%AC%20earring.JPEG",
         alt: "Girl with a Euro Earring",
         description: `"Girl with a Euro Earring" is a contemporary reimagining of Vermeer's iconic Girl with a Pearl Earring. The painting contrasts the timeless elegance of the original with modern commentary by replacing the pearl earring with a one-euro coin. The delicate expression of the girl remains, but the inclusion of the coin and abstract golden lines invites the viewer to reflect on themes of value, materialism, and the intersection of tradition and modernity. The familiar yet altered image challenges the viewer to rethink the significance of traditional values in today's world.`,
@@ -51,7 +51,7 @@ const ARTWORKS = [
       },
       {
         title: "Golden Cage",
-        size: "Acrylic on Canvas, 50 x 70 cm",
+        size: "Acrylic on Canvas, 70 x 50 cm",
         image: "https://raw.githubusercontent.com/janper8877/zdjecia/main/Nowy%20projekt%20(9).png",
         alt: "Golden Cage",
         description: `"Golden Cage" portrays a profile of a face in cool tones of blue against a golden background. The contrast between the colors symbolizes the tension between freedom and restraint. The golden background represents a seemingly perfect yet confining environment, while the face, marked by calm and introspection, reflects the inner struggle of desiring escape or individuality. The painting invites reflection on the balance between comfort and freedom.`,
@@ -64,7 +64,7 @@ const ARTWORKS = [
     items: [
       {
         title: "Expressions",
-        size: "Acrylic on Canvas, 70 x 50 cm",
+        size: "Acrylic on Canvas, 50 x 70 cm",
         image: "https://raw.githubusercontent.com/janper8877/zdjecia/main/expressions.JPEG",
         alt: "Expressions",
         description: `The combination of a monochromatic, realistic portrait of a person mid-scream with an explosion of vibrant shapes symbolizes an intense emotional release. This painting was inspired by the idea that people, much like artists, can seem monochromatic on the surface until we witness their unique ways of expressing themselves. Artists, through their work, reveal a vibrant, colorful essence that might otherwise remain unseen. I believe this concept applies to everyone - each person carries a vivid, dynamic inner world that comes alive when they find their own form of expression.`,
@@ -77,7 +77,7 @@ const ARTWORKS = [
     items: [
       {
         title: "Nostalgia",
-        size: "Acrylic on Canvas, 50 x 70 cm",
+        size: "Acrylic on Canvas, 70 x 50 cm",
         image: "https://raw.githubusercontent.com/janper8877/zdjecia/main/peregonczuk_barbara_nostalgia_1%20(2).png",
         alt: "Nostalgia",
         description: `"Nostalgia" captures the bittersweet feeling of longing for the past. The central figure's face, surrounded by textured shades of blue, evokes both calm and introspection. The vibrant eyes seem to hold memories, while the abstract background symbolizes the haziness of distant recollections. This painting invites viewers to connect with their own emotions and moments of reflection.`,
@@ -85,7 +85,7 @@ const ARTWORKS = [
       },
       {
         title: "Frozen Reflections",
-        size: "Acrylic on Canvas, 50 x 70 cm",
+        size: "Acrylic on Canvas, 70 x 50 cm",
         image: "https://raw.githubusercontent.com/janper8877/zdjecia/main/peregonczuk_barbara_frozenreflections_2.JPEG",
         alt: "Frozen Reflections",
         description: `"Frozen Reflections" captures a haunting stillness, where a grayscale face emerges from an abstract, icy void. The blue eyes, vibrant against the muted tones, symbolize a spark of hope among the cold silence. The figure, both distant and present, represents the inner battles we face when confronting our own reflections—the moments where we feel frozen by fear, regret, or uncertainty. This painting invites viewers to explore their inner depths, seeking clarity and renewal within the frozen echoes of their own emotions.`,
@@ -100,7 +100,7 @@ const ARTWORKS = [
     items: [
       {
         title: "Fever",
-        size: "Acrylic on Canvas, 70 x 100 cm",
+        size: "Acrylic on Canvas, 100 x 70 cm",
         image: "https://raw.githubusercontent.com/janper8877/zdjecia/main/fever.JPEG",
         alt: "Fever",
         description: `"Fever" expresses intense emotions through bold red and blue colors. The fragmented face, with eyes, lips, and a nose, appears within sharp, crisscrossing lines, creating a feeling of chaos and tension. The textured background adds depth, while the contrasting colors reflect the heat of passion or conflict. This piece combines abstract forms with human expression to capture the intensity of a feverish state. This painting is inspired by my personal experience of being ill with a high fever. The vibrant red and blue hues reflect the contrasting colors I perceived during that time, creating a dynamic and intense visual representation of the feverish state.`,
@@ -121,7 +121,7 @@ const ARTWORKS = [
     items: [
       {
         title: "Fire & Ice",
-        size: "Acrylic on Canvas, 70 x 100 cm",
+        size: "Acrylic on Canvas, 100 x 70 cm",
         image: "https://raw.githubusercontent.com/janper8877/zdjecia/main/fire%26ice.jpg",
         alt: "Fire & Ice",
         description: `The painting represents the two sides of human nature - passion and calmness. The blood orange shows energy and strong emotions, while the blue fading into black represents quiet and mystery. Only half of the face is shown, symbolizing the part of ourselves that is known, while the rest remains hidden and unknown. This painting invites you to think about the mix of feelings we all have and the mysteries within us.`,
