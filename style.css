@@ -212,6 +212,10 @@ a {
  
 }
 
+#artwork .section-title {
+  margin-left: 66px;
+}
+
 .artwork-image {
   width: 100%;
   object-fit: contain;
