@@ -132,6 +132,9 @@ const ARTWORKS = [
 ];
 
 const EXHIBITIONS = [
+  { date: "03/2026", title: "Graf Rumford Bar & Galerie", location: "Munich", type: "group exhibition" },
+  { date: "12/2025", title: "Galerie 2B", location: "Starnberg", type: "group exhibition" },
+  { date: "07/2025 - 07/2025", title: "Velvet Space Coworking", location: "Munich", type: "solo exhibition" },
   { date: "04/2025 - 06/2025", title: "art4nature Gallery", location: "Bad Tölz", type: "group exhibition" },
   { date: "04/2025", title: "Little Odessa", location: "Munich", type: "solo exhibition" },
   { date: "03/2025", title: "Gallery meetLoft", location: "Munich", type: "group exhibition" },
