@@ -2,12 +2,12 @@ const ARTWORKS = [
   {
     row: "two-columns",
     items: [
-      {
-        title: "Nostalgia",
-        size: "Acrylic on Canvas, 50 x 70 cm",
-        image: "https://raw.githubusercontent.com/janper8877/zdjecia/main/peregonczuk_barbara_nostalgia_1%20(2).png",
-        alt: "Nostalgia",
-        description: `"Nostalgia" captures the bittersweet feeling of longing for the past. The central figure's face, surrounded by textured shades of blue, evokes both calm and introspection. The vibrant eyes seem to hold memories, while the abstract background symbolizes the haziness of distant recollections. This painting invites viewers to connect with their own emotions and moments of reflection.`,
+       {
+        title: "Black Caption",
+        size: "Oil paint on Canvas, 100 x 100 cm",
+        image: "https://raw.githubusercontent.com/janper8877/zdjecia/main/black_white.JPG",
+        alt: "Black and White",
+        description: `Black and white`,
         layout: "vertical"
       },
       {
@@ -76,11 +76,11 @@ const ARTWORKS = [
     row: "two-columns",
     items: [
       {
-        title: "Fever",
-        size: "Acrylic on Canvas, 70 x 100 cm",
-        image: "https://raw.githubusercontent.com/janper8877/zdjecia/main/fever.JPEG",
-        alt: "Fever",
-        description: `"Fever" expresses intense emotions through bold red and blue colors. The fragmented face, with eyes, lips, and a nose, appears within sharp, crisscrossing lines, creating a feeling of chaos and tension. The textured background adds depth, while the contrasting colors reflect the heat of passion or conflict. This piece combines abstract forms with human expression to capture the intensity of a feverish state. This painting is inspired by my personal experience of being ill with a high fever. The vibrant red and blue hues reflect the contrasting colors I perceived during that time, creating a dynamic and intense visual representation of the feverish state.`,
+        title: "Nostalgia",
+        size: "Acrylic on Canvas, 50 x 70 cm",
+        image: "https://raw.githubusercontent.com/janper8877/zdjecia/main/peregonczuk_barbara_nostalgia_1%20(2).png",
+        alt: "Nostalgia",
+        description: `"Nostalgia" captures the bittersweet feeling of longing for the past. The central figure's face, surrounded by textured shades of blue, evokes both calm and introspection. The vibrant eyes seem to hold memories, while the abstract background symbolizes the haziness of distant recollections. This painting invites viewers to connect with their own emotions and moments of reflection.`,
         layout: "vertical"
       },
       {
@@ -99,19 +99,19 @@ const ARTWORKS = [
     row: "two-columns",
     items: [
       {
+        title: "Fever",
+        size: "Acrylic on Canvas, 70 x 100 cm",
+        image: "https://raw.githubusercontent.com/janper8877/zdjecia/main/fever.JPEG",
+        alt: "Fever",
+        description: `"Fever" expresses intense emotions through bold red and blue colors. The fragmented face, with eyes, lips, and a nose, appears within sharp, crisscrossing lines, creating a feeling of chaos and tension. The textured background adds depth, while the contrasting colors reflect the heat of passion or conflict. This piece combines abstract forms with human expression to capture the intensity of a feverish state. This painting is inspired by my personal experience of being ill with a high fever. The vibrant red and blue hues reflect the contrasting colors I perceived during that time, creating a dynamic and intense visual representation of the feverish state.`,
+        layout: "vertical"
+      },
+      {
         title: "Dali",
         size: "Oil paint on Wood, 40 x 30 cm",
         image: "https://raw.githubusercontent.com/janper8877/zdjecia/main/dali%20(1).jpg",
         alt: "Dali",
         description: `This portrait of Salvador Dalí captures the surrealist master's unmistakable presence against a bold yellow background. His expressive eyes, sharp mustache, and intense gaze reflect his eccentric genius and larger-than-life persona. The vivid yellow adds energy and warmth, while also hinting at the bold imagination and electric creativity that defined Dalí's world. The painting is both a tribute and a glimpse into the mind of an artist who blurred the line between dream and reality.`,
-        layout: "vertical"
-      },
-      {
-        title: "Fire & Ice",
-        size: "Acrylic on Canvas, 70 x 100 cm",
-        image: "https://raw.githubusercontent.com/janper8877/zdjecia/main/fire%26ice.jpg",
-        alt: "Fire & Ice",
-        description: `The painting represents the two sides of human nature - passion and calmness. The blood orange shows energy and strong emotions, while the blue fading into black represents quiet and mystery. Only half of the face is shown, symbolizing the part of ourselves that is known, while the rest remains hidden and unknown. This painting invites you to think about the mix of feelings we all have and the mysteries within us.`,
         layout: "vertical"
       }
     ]
@@ -120,11 +120,11 @@ const ARTWORKS = [
     row: "two-columns",
     items: [
       {
-        title: "Black Caption",
-        size: "Oil paint on Canvas, 100 x 100 cm",
-        image: "https://raw.githubusercontent.com/janper8877/zdjecia/main/black_white.JPG",
-        alt: "Black and White",
-        description: `Black and white`,
+        title: "Fire & Ice",
+        size: "Acrylic on Canvas, 70 x 100 cm",
+        image: "https://raw.githubusercontent.com/janper8877/zdjecia/main/fire%26ice.jpg",
+        alt: "Fire & Ice",
+        description: `The painting represents the two sides of human nature - passion and calmness. The blood orange shows energy and strong emotions, while the blue fading into black represents quiet and mystery. Only half of the face is shown, symbolizing the part of ourselves that is known, while the rest remains hidden and unknown. This painting invites you to think about the mix of feelings we all have and the mysteries within us.`,
         layout: "vertical"
       }
     ]
