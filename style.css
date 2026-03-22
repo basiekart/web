@@ -529,6 +529,14 @@ max-width: 70%;   /* ← TU sterujesz szerokością */
     margin-inline: auto;
     
   }
+  
+    .artwork-row.one-column .description p {
+  font-size: 0.8rem;
+}
+
+.artwork-row.two-columns .description p {
+  font-size: 1.0rem;
+}
 
   .about__title {
     font-size: 40px;
@@ -540,6 +548,8 @@ max-width: 70%;   /* ← TU sterujesz szerokością */
     --nav-height: 70px;
   }
 
+  
+  
   .nav {
     padding: 0 15px;
   }
@@ -598,6 +608,16 @@ max-width: 70%;   /* ← TU sterujesz szerokością */
   .artwork-row.two-columns {
     grid-template-columns: 1fr;
   }
+  
+  .artwork-row.one-column .description p {
+  font-size: 0.6rem;
+}
+
+.artwork-row.two-columns .description p {
+  font-size: 0.8rem;
+}
+  
+  
 
   .artwork-image.vertical,
   .artwork-image.vertical-no,
@@ -625,6 +645,8 @@ max-width: 70%;   /* ← TU sterujesz szerokością */
     border-radius: 0;
   }
   
+  
+  
  
  
 
@@ -649,6 +671,14 @@ max-width: 70%;   /* ← TU sterujesz szerokością */
     font-size: 12px;
     padding: 15px;
   }
+  
+    .artwork-row.one-column .description p {
+  font-size: 0.4rem;
+}
+
+.artwork-row.two-columns .description p {
+  font-size: 0.6rem;
+}
 
   .carousel-cell,
   .carousel-cell img {
