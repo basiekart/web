@@ -558,6 +558,10 @@ max-width: 70%;   /* ← TU sterujesz szerokością */
   margin-left: 0px; /* ← przesuwa całość w prawo */
 }
   
+  #artwork .section-title {
+  margin-left: 0px;
+}
+  
   .nav {
     padding: 0 15px;
   }
