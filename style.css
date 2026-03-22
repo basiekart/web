@@ -154,6 +154,7 @@ a {
 }
 
 .about__text {
+  font-family: "Hind Madurai", sans-serif;
   max-width: 500px;
   display: grid;
   gap: 18px;
@@ -455,8 +456,8 @@ max-width: 70%;   /* ← TU sterujesz szerokością */
 
 .social-icons svg,
 .social-icons img {
-  width: 28px;
-  height: 28px;
+  width: 30px;
+  height: 30px;
 }
 
 .instagram-icon {
