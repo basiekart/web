@@ -389,4 +389,4 @@ function init() {
   createCarousel(".carousel-2");
 }
 
-document.addEventListener("DOMContentLoaded", init);
+window.addEventListener("load", init);
