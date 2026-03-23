@@ -124,7 +124,7 @@ const ARTWORKS = [
         size: "Oil paint on Wood, 40 x 30 cm",
         image: "https://raw.githubusercontent.com/janper8877/zdjecia/main/dali%20(1).jpg",
         alt: "Dali",
-        description: `This portrait of Salvador Dalí captures the surrealist master's unmistakable presence against a bold yellow background. His expressive eyes, sharp mustache, and intense gaze reflect his eccentric genius and larger-than-life persona. The vivid yellow adds energy and warmth, while also hinting at the bold imagination and electric creativity that defined Dalí's world. The painting is both a tribute and a glimpse into the mind of an artist who blurred the line between dream and reality.`,
+        description: `Dalí pulled off one of the greatest tricks in the history of art: he convinced the entire world that he was a fool. For seventy years everyone laughed at the crazy man with the moustache. And all the time he was the one laughing at them. This portrait does not show the clown. It shows the magician.`,
         layout: "vertical"
       }
     ]
