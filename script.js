@@ -103,7 +103,7 @@ const ARTWORKS = [
         size: "Acrylic on Canvas, 100 x 70 cm",
         image: "https://raw.githubusercontent.com/janper8877/zdjecia/main/fever.JPEG",
         alt: "Fever",
-        description: `"Fever" expresses intense emotions through bold red and blue colors. The fragmented face, with eyes, lips, and a nose, appears within sharp, crisscrossing lines, creating a feeling of chaos and tension. The textured background adds depth, while the contrasting colors reflect the heat of passion or conflict. This piece combines abstract forms with human expression to capture the intensity of a feverish state. This painting is inspired by my personal experience of being ill with a high fever. The vibrant red and blue hues reflect the contrasting colors I perceived during that time, creating a dynamic and intense visual representation of the feverish state.`,
+        description: `It is not just that every person is made of many parts. It is that most of the time, you can not even tell them apart. You can not tell where the anger ends and the sadness begins. You can not tell if you are breaking right now, or if you are finally healing. There are no clean lines inside us. There is no side A and side B. Everything blends into everything. That is the fever state of being alive.`,
         layout: "vertical"
       },
       {
