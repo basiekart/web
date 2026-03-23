@@ -627,7 +627,7 @@ a {
   }
   
   .artwork-row.one-column .description p {
-  font-size: 1.0rem;
+  font-size: 0.9rem;
 }
 
 .artwork-row.two-columns .description p {
@@ -687,7 +687,7 @@ a {
   }
   
     .artwork-row.one-column .description p {
-  font-size: 0.85rem;
+  font-size: 0.80rem;
 }
 
 .artwork-row.two-columns .description p {
