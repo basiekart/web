@@ -15,7 +15,7 @@ const ARTWORKS = [
         size: "Oil on Canvas, 100 x 80 cm",
         image: "https://raw.githubusercontent.com/janper8877/zdjecia/main/peregonczuk_barbara_nowayout_3%20(1).jpg",
         alt: "No Way Out",
-        description: `In No Way Out, the viewer meets the intense, haunting gaze of a woman painted in grayscale. Her bright turquoise eye, the only color in the painting, draws attention and suggests both deep emotion and a feeling of being trapped. Only half of her face is shown, adding to the sense of isolation, as if she's stuck inside the frame. The strong contrast between the colorful background and her pale figure highlights her inner struggle, making the viewer feel her quiet desperation and need to escape.`,
+        description: `This is about the most underrated truth about being human. Every single person you will ever meet looks ordinary, until you get close enough. Then you find an entire world, full of beauty and cruelty and joy and damage, that no one else ever gets to see. The labyrinth in the eye is not a metaphor for how hard it is to know someone. It is a metaphor for how hard it is to un-know them. You can spend your whole life walking the corridors inside another person. You will never find the centre. And you will never find the exit again.`,
         layout: "vertical-no"
       }
     ]
