@@ -67,7 +67,7 @@ const ARTWORKS = [
         size: "Acrylic on Canvas, 50 x 70 cm",
         image: "https://raw.githubusercontent.com/janper8877/zdjecia/main/expressions.JPEG",
         alt: "Expressions",
-        description: `The combination of a monochromatic, realistic portrait of a person mid-scream with an explosion of vibrant shapes symbolizes an intense emotional release. This painting was inspired by the idea that people, much like artists, can seem monochromatic on the surface until we witness their unique ways of expressing themselves. Artists, through their work, reveal a vibrant, colorful essence that might otherwise remain unseen. I believe this concept applies to everyone - each person carries a vivid, dynamic inner world that comes alive when they find their own form of expression.`,
+        description: `Almost the entire world is obsessed with the shell. We judge every person entirely by the neutral, static, uninteresting exterior they walk around in. This painting says all of that is completely irrelevant. All of it is noise. The entire truth of a person is not what they look like. It is what they create. It is what they let escape. It is what they scream, sing, draw and say. The man in this painting is entirely unremarkable. He looks like every man you have ever walked past on the street. But when he opens his mouth, the entire world comes out.`,
         layout: "horizontal"
       }
     ]
