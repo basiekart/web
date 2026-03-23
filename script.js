@@ -46,7 +46,7 @@ const ARTWORKS = [
         size: "Acrylic on Canvas, 70 x 50 cm",
         image: "https://raw.githubusercontent.com/janper8877/zdjecia/main/girl%20with%20a%20%E2%82%AC%20earring.JPEG",
         alt: "Girl with a Euro Earring",
-        description: `"Girl with a Euro Earring" is a contemporary reimagining of Vermeer's iconic Girl with a Pearl Earring. The painting contrasts the timeless elegance of the original with modern commentary by replacing the pearl earring with a one-euro coin. The delicate expression of the girl remains, but the inclusion of the coin and abstract golden lines invites the viewer to reflect on themes of value, materialism, and the intersection of tradition and modernity. The familiar yet altered image challenges the viewer to rethink the significance of traditional values in today's world.`,
+        description: `I took a moment to look at an old icon with new eyes. Instead of the pearl, which stands for timeless beauty, she holds a Euro coin. Then I wrapped her in gold and silver lines—not as decoration, but as a reflection of how we live now. For me, it’s a silent reminder that we often confuse value with price. I hope this painting makes you stop and think: What truly matters here?`,
         layout: "vertical"
       },
       {
