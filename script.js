@@ -54,7 +54,7 @@ const ARTWORKS = [
         size: "Acrylic on Canvas, 70 x 50 cm",
         image: "https://raw.githubusercontent.com/janper8877/zdjecia/main/Nowy%20projekt%20(9).png",
         alt: "Golden Cage",
-        description: `"Golden Cage" portrays a profile of a face in cool tones of blue against a golden background. The contrast between the colors symbolizes the tension between freedom and restraint. The golden background represents a seemingly perfect yet confining environment, while the face, marked by calm and introspection, reflects the inner struggle of desiring escape or individuality. The painting invites reflection on the balance between comfort and freedom.`,
+        description: `Most of us will never be locked in a real cage. But most of us will, slowly, with the very best of intentions, build ourselves a golden one. We trade days, moments, small and large joys, one by one, for security, status and money, all the time genuinely believing we are working towards freedom. This work is not an accusation. It is just a quiet observation: the cage is golden for a reason. It is not supposed to look like a cage.`,
         layout: "vertical"
       }
     ]
