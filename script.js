@@ -111,7 +111,7 @@ const ARTWORKS = [
         size: "Acrylic on Canvas, 100 x 70 cm",
         image: "https://raw.githubusercontent.com/janper8877/zdjecia/main/fire%26ice.jpg",
         alt: "Fire & Ice",
-        description: `The painting represents the two sides of human nature - passion and calmness. The blood orange shows energy and strong emotions, while the blue fading into black represents quiet and mystery. Only half of the face is shown, symbolizing the part of ourselves that is known, while the rest remains hidden and unknown. This painting invites you to think about the mix of feelings we all have and the mysteries within us.`,
+        description: `Everyone will tell you that people are either fire or ice. That is a lie.Every single human being is both, at the exact same time.This is not a painting about two forces fighting each other. This is a painting about how it actually feels to be a person. There is no battle. There is no winner. There is just both. Always.`,
         layout: "vertical"
       }
     ]
