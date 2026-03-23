@@ -31,7 +31,7 @@ const ARTWORKS = [
         size: "Acrylic on Canvas, 50 x 70 cm",
         image: "https://raw.githubusercontent.com/janper8877/zdjecia/main/Nowy%20projekt%20(8).png",
         alt: "Disco",
-        description: `The painting "Disco" portrays a young woman whose eyes convey a mix of surprise, curiosity, and perhaps a hint of confusion. Her sideways glance and slightly open mouth suggest she is witnessing or experiencing something unexpected. The style blends realistic portraiture with abstract elements, creating a dynamic and energetic atmosphere. The background is vibrant and abstract, dominated by bright blue and orange tones interwoven with wave-like lines.`,
+        description: `This painting is not about parties. It is about that rare, almost holy moment that sometimes happens in the middle of them. It is the moment you forget to perform. You forget to worry. You forget to plan, and build, and compromise. For a little while you are not working towards anything. You are just alive. Almost all of life is lived somewhere else. Most of the time we are thinking about yesterday, or tomorrow. This is about the very rare times we are actually here.`,
         layout: "horizontal"
       }
     ]
