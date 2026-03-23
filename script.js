@@ -7,7 +7,7 @@ const ARTWORKS = [
         size: "Acrylic on canvas, 50 x 40 cm",
         image: "https://raw.githubusercontent.com/janper8877/zdjecia/main/black_white.JPG",
         alt: "Black and White",
-        description: `Black and white`,
+        description: `This painting is about learning to walk forward while the past is still ringing in your ears. The memories are still there. They surround you. They come back without warning, like echoes bouncing off the walls.  And yet, somehow, you find yourself moving anyway. It is about learning to walk forward while they are still there. Learning to listen to them, but not let them stop your feet. You can move while they are still ringing. And that is when everything changes.`,
         layout: "vertical"
       },
       {
