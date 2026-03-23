@@ -553,7 +553,7 @@ max-width: 70%;   /* ← TU sterujesz szerokością */
   }
   
   .about__text p {
-  font-size: 15px;
+  font-size: 15.5px;
   line-height: 1.8;
 }
 
@@ -678,7 +678,7 @@ max-width: 70%;   /* ← TU sterujesz szerokością */
   }
 
   .about__text p {
-    font-size: 13px;
+    font-size: 13.5px;
   }
 
   .description {
