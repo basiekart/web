@@ -258,16 +258,16 @@ a {
   margin: 0;
 
   text-align: left;
-max-width: 70%;   /* ← TU sterujesz szerokością */
+  max-width: 80%;   /* ← TU sterujesz szerokością */
   word-break: break-word;
 }
 
 .artwork-row.one-column .description p {
-  font-size: 1.2rem;
+  font-size: 1.25rem;
 }
 
 .artwork-row.two-columns .description p {
-  font-size: 1.2rem;
+  font-size: 1.25rem;
 }
 
 @media (hover: hover) {
@@ -627,11 +627,11 @@ max-width: 70%;   /* ← TU sterujesz szerokością */
   }
   
   .artwork-row.one-column .description p {
-  font-size: 0.95rem;
+  font-size: 1.0rem;
 }
 
 .artwork-row.two-columns .description p {
-  font-size: 0.95rem;
+  font-size: 1.0rem;
 }
   
   
@@ -687,11 +687,11 @@ max-width: 70%;   /* ← TU sterujesz szerokością */
   }
   
     .artwork-row.one-column .description p {
-  font-size: 0.8rem;
+  font-size: 0.85rem;
 }
 
 .artwork-row.two-columns .description p {
-  font-size: 0.8rem;
+  font-size: 0.85rem;
 }
 
   .carousel-cell,
