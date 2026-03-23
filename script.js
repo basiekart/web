@@ -88,7 +88,7 @@ const ARTWORKS = [
         size: "Acrylic on Canvas, 70 x 50 cm",
         image: "https://raw.githubusercontent.com/janper8877/zdjecia/main/peregonczuk_barbara_frozenreflections_2.JPEG",
         alt: "Frozen Reflections",
-        description: `"Frozen Reflections" captures a haunting stillness, where a grayscale face emerges from an abstract, icy void. The blue eyes, vibrant against the muted tones, symbolize a spark of hope among the cold silence. The figure, both distant and present, represents the inner battles we face when confronting our own reflections—the moments where we feel frozen by fear, regret, or uncertainty. This painting invites viewers to explore their inner depths, seeking clarity and renewal within the frozen echoes of their own emotions.`,
+        description: `You have been in a difficult place for a long time. Everything was still. Everything was frozen. Your own thoughts were just frozen reflections, going over the same cold ground again and again. It felt like it would never end. And then, one day, something shifts. It is not a sudden warmth. It is not a burst of sun. It is just a feeling, deep down, that the ice is beginning to thin. You don't know what comes next. You don't know if it will be easy. But for the first time in a very long time, you can see a glimpse of something new. This painting is not about the end of the struggle. It is about the first, fragile whisper of hope that you are finally, slowly, moving out of it.`,
         layout: "vertical"
       }
     ]
