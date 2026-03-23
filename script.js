@@ -80,7 +80,7 @@ const ARTWORKS = [
         size: "Acrylic on Canvas, 70 x 50 cm",
         image: "https://raw.githubusercontent.com/janper8877/zdjecia/main/DSC04449.JPG",
         alt: "Nostalgia",
-        description: `"Nostalgia" captures the bittersweet feeling of longing for the past. The central figure's face, surrounded by textured shades of blue, evokes both calm and introspection. The vibrant eyes seem to hold memories, while the abstract background symbolizes the haziness of distant recollections. This painting invites viewers to connect with their own emotions and moments of reflection.`,
+        description: `Have you ever closed your eyes and suddenly found yourself somewhere else? Not physically, but in your mind. This piece tries to capture that exact feeling—the sudden rush of memory. It’s about the scent of warm air, the smell of fresh cake that your mother used to bake on Sundays, and the safe feeling of returning to your childhood home. Sometimes the past feels closer than the present.`,
         layout: "vertical"
       },
       {
