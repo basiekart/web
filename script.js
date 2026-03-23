@@ -31,7 +31,7 @@ const ARTWORKS = [
         size: "Acrylic on Canvas, 50 x 70 cm",
         image: "https://raw.githubusercontent.com/janper8877/zdjecia/main/Nowy%20projekt%20(8).png",
         alt: "Disco",
-        description: `This painting is not about parties. It is about that rare, almost holy moment that sometimes happens in the middle of them. It is the moment you forget to perform. You forget to worry. You forget to plan, and build, and compromise. For a little while you are not working towards anything. You are just alive. Almost all of life is lived somewhere else. Most of the time we are thinking about yesterday, or tomorrow. This is about the very rare times we are actually here.`,
+        description: `This painting is not about parties. It is about that rare, moment that sometimes happens in the middle of them. It is the moment you forget to perform. You forget to worry. You forget to plan, and build, and compromise. For a little while you are not working towards anything. You are just alive. Almost all of life is lived somewhere else. Most of the time we are thinking about yesterday, or tomorrow. This is about the very rare times we are actually here.`,
         layout: "horizontal"
       }
     ]
