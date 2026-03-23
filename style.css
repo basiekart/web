@@ -267,7 +267,7 @@ max-width: 70%;   /* ← TU sterujesz szerokością */
 }
 
 .artwork-row.two-columns .description p {
-  font-size: 1.1rem;
+  font-size: 1.2rem;
 }
 
 @media (hover: hover) {
@@ -622,11 +622,11 @@ max-width: 70%;   /* ← TU sterujesz szerokością */
   }
   
   .artwork-row.one-column .description p {
-  font-size: 0.6rem;
+  font-size: 0.7rem;
 }
 
 .artwork-row.two-columns .description p {
-  font-size: 0.8rem;
+  font-size: 0.7rem;
 }
   
   
@@ -658,9 +658,6 @@ max-width: 70%;   /* ← TU sterujesz szerokością */
   }
   
   
-  
- 
- 
 
   .carousel-cell,
   .carousel-cell img {
@@ -685,7 +682,7 @@ max-width: 70%;   /* ← TU sterujesz szerokością */
   }
   
     .artwork-row.one-column .description p {
-  font-size: 0.4rem;
+  font-size: 0.6rem;
 }
 
 .artwork-row.two-columns .description p {
