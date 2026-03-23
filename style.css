@@ -535,11 +535,11 @@ max-width: 70%;   /* ← TU sterujesz szerokością */
   }
   
     .artwork-row.one-column .description p {
-  font-size: 0.8rem;
+  font-size: 1.02rem;
 }
 
 .artwork-row.two-columns .description p {
-  font-size: 1.0rem;
+  font-size: 1.02rem;
 }
 
   .about__title {
@@ -627,11 +627,11 @@ max-width: 70%;   /* ← TU sterujesz szerokością */
   }
   
   .artwork-row.one-column .description p {
-  font-size: 0.7rem;
+  font-size: 0.95rem;
 }
 
 .artwork-row.two-columns .description p {
-  font-size: 0.7rem;
+  font-size: 0.95rem;
 }
   
   
@@ -687,11 +687,11 @@ max-width: 70%;   /* ← TU sterujesz szerokością */
   }
   
     .artwork-row.one-column .description p {
-  font-size: 0.6rem;
+  font-size: 0.8rem;
 }
 
 .artwork-row.two-columns .description p {
-  font-size: 0.6rem;
+  font-size: 0.8rem;
 }
 
   .carousel-cell,
