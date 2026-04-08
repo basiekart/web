@@ -202,7 +202,15 @@ function createArtworkCard(item) {
   return `
     <article class="artwork-card" data-reveal>
       <div class="artwork-wrapper">
-        <img class="artwork-image ${item.layout}" src="${item.image}" alt="${item.alt}">
+      
+       <img 
+  class="artwork-image ${item.layout}" 
+  src="${item.image}" 
+  alt="${item.alt}"
+  loading="lazy"
+  width="600"
+  height="800"
+>  
         <div class="description">
   <p>${item.description}</p>
 </div>
