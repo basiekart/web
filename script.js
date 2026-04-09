@@ -35,7 +35,7 @@ const ARTWORKS = [
       },
       {
         title: "Interrupted",
-        size: "Oil on Canvas, 100 x 80 cm",
+        size: "Acrylic on Canvas, 50 x 40 cm",
         image: "https://raw.githubusercontent.com/janper8877/zdjecia/main/Interrupted%2040x50.jpg",
         alt: "Interrupted",
         description: `......`,
@@ -144,7 +144,7 @@ const ARTWORKS = [
     items: [
       {
         title: "Dali",
-        size: "Oil paint on Wood, 40 x 30 cm",
+        size: "Oil on Canvas, 40 x 30 cm",
         image: "https://raw.githubusercontent.com/janper8877/zdjecia/main/dali%20(1).jpg",
         alt: "Dali",
         description: `Dalí pulled off one of the greatest tricks in the history of art: he convinced the entire world that he was a fool. For seventy years everyone laughed at the crazy man with the moustache. And all the time he was the one laughing at them. This portrait does not show the clown. It shows the magician.`,
@@ -153,10 +153,10 @@ const ARTWORKS = [
 
       {
         title: "Hope",
-        size: "Oil paint on Wood, 40 x 30 cm",
+        size: "Acrylic on Canvas, 50 x 40 cm",
         image: "https://raw.githubusercontent.com/janper8877/zdjecia/main/Hope%2050x40cm.jpg",
         alt: "Dali",
-        description: `Dalí pulled off one of the greatest tricks in the history of art: he convinced the entire world that he was a fool. For seventy years everyone laughed at the crazy man with the moustache. And all the time he was the one laughing at them. This portrait does not show the clown. It shows the magician.`,
+        description: `....`,
         layout: "vertical"
       }
     ]
