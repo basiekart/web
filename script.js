@@ -27,7 +27,7 @@ const ARTWORKS = [
     items: [
        {
         title: "Silence",
-        size: "Acrylic on canvas, 50 x 40 cm",
+        size: "Acrylic on Canvas, 50 x 40 cm",
         image: "https://raw.githubusercontent.com/janper8877/zdjecia/main/Silence%2050x40%20Acrylic.jpg",
         alt: "Silence",
         description: `There are moments when we seem to disappear into ourselves — when thoughts grow heavier than words, and the mind quietly drifts away. "Silence" portrays this delicate space between presence and absence, between being here and being lost in one's inner world.`,
@@ -38,7 +38,7 @@ const ARTWORKS = [
         size: "Acrylic on Canvas, 50 x 40 cm",
         image: "https://raw.githubusercontent.com/janper8877/zdjecia/main/Interrupted%2040x50.jpg",
         alt: "Interrupted",
-        description: `......`,
+        description: `In our busy lives, dare to interrupt: hold the moment, meet someone deeply, and let genuine connection bloom. "Interrupted" is that quiet rebellion against the rush.`,
         layout: "vertical-no"
       }
     ]
