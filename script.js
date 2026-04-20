@@ -164,7 +164,7 @@ const ARTWORKS = [
 ];
 
 const EXHIBITIONS = [
-  { date: "05/2026", title: "ARTMUC International Art Fair", location: "Munich", type: "art fair" },
+  { date: "05/2026", title: "ARTMUC International Art Fair with Galartery", location: "Munich", type: "art fair" },
   { date: "03/2026", title: "Graf Rumford Bar & Galerie", location: "Munich", type: "group exhibition" },
   { date: "12/2025", title: "Galerie 2B", location: "Starnberg", type: "group exhibition" },
   { date: "07/2025 - 10/2025", title: "Velvet Space Coworking", location: "Munich", type: "solo exhibition" },
