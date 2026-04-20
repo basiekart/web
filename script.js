@@ -30,7 +30,7 @@ const ARTWORKS = [
         size: "Acrylic on canvas, 50 x 40 cm",
         image: "https://raw.githubusercontent.com/janper8877/zdjecia/main/Silence%2050x40%20Acrylic.jpg",
         alt: "Silence",
-        description: `......`,
+        description: `There are moments when we seem to disappear into ourselves — when thoughts grow heavier than words, and the mind quietly drifts away. "Silence" portrays this delicate space between presence and absence, between being here and being lost in one's inner world.`,
         layout: "vertical"
       },
       {
