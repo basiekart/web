@@ -156,7 +156,7 @@ const ARTWORKS = [
         size: "Acrylic on Canvas, 50 x 40 cm",
         image: "https://raw.githubusercontent.com/janper8877/zdjecia/main/Hope%2050x40cm.jpg",
         alt: "Dali",
-        description: `....`,
+        description: `A face rises from darkness into light. "Hope" shows us that courage means moving forward despite the darkness — finding your own light even in the hardest moments.`,
         layout: "vertical"
       }
     ]
